@@ -6,7 +6,7 @@ func main() {
     a1:=make([]int, len(arr), len(arr))
     var k int
     var result []int
-    
+  
     //делаем копию масива(она понадобиться в конце))))
     for i:=0; i<len(arr); i++{//
         a1[i]=arr[i]
