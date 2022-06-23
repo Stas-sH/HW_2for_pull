@@ -5,7 +5,6 @@ func main() {
     input := "1 9 3 4 -5"
     var x int
     var result string
-    
     splitInput:=strings.Split(input," ")
     if len(splitInput)==1{
         result=splitInput[0]
